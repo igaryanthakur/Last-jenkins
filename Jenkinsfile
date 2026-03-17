@@ -13,7 +13,7 @@ pipeline{
           alwaysLinkToLastBuild:false,
           keepAll:false,
           reportDir:".",
-          reportFiles:"Demo.html",
+          reportFiles:"index.html",
           reportName:"Last of Jenkins"
           ])
       }
