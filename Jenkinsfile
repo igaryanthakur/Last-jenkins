@@ -10,7 +10,7 @@ pipeline{
       steps{
         publishHTML([
           allowMissing:true, 
-          alwaysLinktoLastBuild:false,
+          alwaysLinkToLastBuild:false,
           keepAll:false,
           reportDir:".",
           reportFiles:"Demo.html",
